@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>gradient</title>
+	<style type="text/css">
+		body{
+			background-color: #25ff00;
+		}
+		p{
+			font-size: 0.5in;
+			color: rgb(255, 255, 255);
+			background: linear-gradient(pink,purple,hotpink);
+		}
+		div{
+			height: 300px;
+			width: 300px;
+			margin: 20px;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+<p>Ми вивчаємо градієнт</p>
+<div style="background: radial-gradient(circle,red,yellow,green);"></div>
+<div style="background: repeating-radial-gradient(red,yellow 10%,green 15%);"></div>
+<div style="background: linear-gradient(red,yellow,blue,orange);"></div>
+<div style="background: linear-gradient(red 10%,yellow 10% 50%,blue 50% 90%,orange 90%);"></div>
+<div style="background: linear-gradient(to right,red 10%,yellow 10% 50%,blue 50% 90%,orange 90%);"></div>
+<div style="background: linear-gradient(100deg,black,white);"></div>
+<div style="background: repeating-radial-gradient(black 10%,white 20%); border-radius: 50%;"></div>
+<div style="background: radial-gradient(at 0% 30%,red 10px,yellow 30%,#1e90ff 50%);"></div>
+<div style="background: repeating-linear-gradient(-45deg,red,red 5px,blue 5px,blue 10px);"></div>
+<div style="background: repeating-radial-gradient(black,black 5px,white 5px,white 10px);"></div>
+</body>
+</html>

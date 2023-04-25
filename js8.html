@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body style="background-color: bisque; font-size: 40px;" >
+    <script>
+        let number = prompt("Введіть число:",""); 
+let colors=["red","yellow","blue","green","orange","pink","purple","violet","gray","black","white"]
+for (let i = 0; i < number.length; i++) { 
+  let rand=Math.floor(Math.random()*colors.length)
+           let digit = number.charAt(i); 
+  switch (digit) {
+    case '0':
+    document.write(`<span style='color:${colors[rand]}'> Нуль </span>`);
+      break;
+    case '1':
+    document.write(`<span style='color:${colors[rand]}'> Один </span>`);
+           break;
+    case '2':
+    document.write(`<span style='color:${colors[rand]}'> Два </span>`);
+    
+      break;
+    case '3':
+    document.write(`<span style='color:${colors[rand]}'> Три </span>`);
+  
+      break;
+    case '4':
+    document.write(`<span style='color:${colors[rand]}'> Чотири </span>`);
+      break;
+    case '5':
+    document.write(`<span style='color:${colors[rand]}'> П'ять </span>`);
+    
+      break;
+    case '6':
+    document.write(`<span style='color:${colors[rand]}'> Шість </span>`);
+           break;
+    case '7':
+    document.write(`<span style='color:${colors[rand]}'> Сім </span>`);
+   
+      break;
+    case '8':
+    document.write(`<span style='color:${colors[rand]}'> Вісім </span>`);
+    
+      break;
+    case '9':
+    document.write(`<span style='color:${colors[rand]}'> Дев'ять </span>`);
+   
+      break;
+  }
+}
+    </script>
+</body>
+</html>

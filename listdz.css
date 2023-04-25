@@ -1,0 +1,21 @@
+body{
+	background-color: #DEB887;
+}
+p, li{
+	font-family: Luminari, fantasy;
+	font-size: 30px;
+}
+p{
+	font-size: 40px;
+	color: #8B4513;
+}
+.url{
+	width: 30%;
+	height: 30%;
+}
+.m1 li{
+	list-style-type: '🐙';
+}
+ol{
+	margin-left: 10px;
+}

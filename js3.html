@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body style="background-color: #1E90FF ;">
+    <script>
+          let money=+prompt('Яку суму ви хочете зняти? Мінімальна купюра 50 гривень');
+      if(money>50 && money<3000){
+       if(money % 50){
+        alert('Ви не можете зняти цю суму, банкомат видає суму тільки кратну 50')
+      } else {
+      alert('Будь ласка, візьміть ваші гроші у сумі '+money+'');
+    }
+    }else {alert ('Банкомат не видає такі суми')}
+    </script>
+</body>
+</html>

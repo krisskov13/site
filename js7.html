@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body style="background-color: #D8BFD8; font-size: 40px;" >
+    <script>
+       let number = prompt("Введіть число");
+        while(isNaN(number)) {
+            number = prompt("Це NaN - не число, введіть число")
+        } 
+            document.write("в числі " +number+ " кількість чисел: " +number.length)
+        for (i=0;i<number.length;i++){
+            document.write("<br>"+number[i])
+        }
+    </script>
+</body>
+</html>

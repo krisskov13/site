@@ -1,0 +1,118 @@
+header{
+	height: 120px;
+	background-color: #8181F7;
+	text-align: center;
+}
+h1{
+	text-align: center;
+	font-family: serif;
+	font-variant: small-caps;
+	font-size: 50px;
+	position: absolute;
+	top: 8px;
+	left: 38%;
+	color: white;
+}
+#menu{
+	width: 20%;
+	height: 1600px;
+	float: left;
+	background-color: #CECEF6;
+}
+#content{
+	width: 80%;
+	float: left;
+	
+}
+h2{
+	text-align: center;
+	font-size: 40px;
+	font-family: serif;
+	font-variant: small-caps;
+}
+footer{
+	height: 200px;
+	background-color: #BDBDBD;
+	clear: both;	
+}
+a{
+	text-decoration: none;
+}
+p{
+	text-align: justify;
+	margin-left: 15px;
+	margin-right: 15px;
+    text-indent: 20px;
+    font-size: 30px;
+    font-family: serif;
+}
+img.myphoto{
+	border: 3px solid;
+	border-color: grey;
+}
+.bgvideo{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.bgvideo video{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+.contacts{
+	position: relative;
+	bottom: 10px;
+	left: 570px;
+
+}
+	
+
+
+
+/* CSS */
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: URW Chancery L, cursive;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 6px;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 70%;
+  will-change: transform;
+  margin-left: 35px;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
